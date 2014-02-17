@@ -1,0 +1,14 @@
+Welcome!
+Reddump is a Python script that automatically downloads images and albums from www.reddit.com subreddits and organizes them neatly into your directory.
+
+AUTHOR: __solo__
+LICENSE: free 
+
+HOW TO USE:
+Just double click the executable called "Reddump" and specify the filter parameters that are subsequently asked.
+
+FEATURES:
+> You can specify how many posts you want to download.
+> If for some reason, the application is turned off in between the download process, don't worry. The next time you fire up the same download, the application will check for all the downloaded stuff and continue from the first album not downloaded or partially downloaded. Partially downloaded images need to be deleted though.
+>You can choose from the reddit's "hot", "top", "new" threads.
+>Each downloaded Album and contained images will be enumerated and named after their author.
