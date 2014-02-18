@@ -24,7 +24,7 @@ pattern_image = re.compile("\.\w+$")
 image_extensions = ["jpg", "jpeg", "png", "bmp", "gif"]
 valid_filters = ["day", "hour", "week", "month", "year", "all"]
 
-pattern_album_scrapper = re.compile('data\-src="//(\w+\.imgur\.com/[a-zA-Z0-9]+)s(\.\w+)" data-index="\d+"')
+pattern_album_scrapper = re.compile('<meta property="og:image" content="http://((?:i|w{3})?\.?imgur.com/\w+\.\w+)" />')
 
 def direct_image_downloader(i, data, target):    
     target_folder = os.path.join(target,"%d_"%i + data["author"] )  
